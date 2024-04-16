@@ -34,11 +34,11 @@ main {
 #left #first-img {
   width: 100%;
   height: auto;
-  max-width: 400px;
+  max-width: 25em;
 }
 @media (min-width: 62em) {
   main {
-    max-width: 800px;
+    max-width: 50em;
     display: flex;
   }
   #left {
