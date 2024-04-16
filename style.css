@@ -38,7 +38,7 @@ main {
 }
 @media (min-width: 62em) {
   main {
-    max-width: 50em;
+    min-width: 50em;
     display: flex;
   }
   #left {
