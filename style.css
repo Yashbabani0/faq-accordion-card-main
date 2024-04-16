@@ -26,7 +26,7 @@ body {
 }
 main {
   max-width: 90%;
-  background-color: var(--Light-grayish-blue);
+  background-color: white;
   border-radius: 2em;
   margin-top: 15vh;
   margin-bottom: 5vh;
@@ -35,6 +35,22 @@ main {
   width: 100%;
   height: auto;
   max-width: 25em;
+}
+h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+button {
+    border: none;
+    background: transparent;
+}
+.icon-arrow-up {
+    transform: rotate(180deg);
+}
+.accordion-header:hover {
+    color: var(--Soft-red);
 }
 @media (min-width: 62em) {
   main {
@@ -48,12 +64,11 @@ main {
     background-size: contain;
     border-right: 2px solid red;
   }
-
+  #right {
+    max-width: 50%;
+  }
   .accordion {
     padding: 2em;
-  }
-  .accordion p {
-    display: none;
   }
 }
 .attribution {
